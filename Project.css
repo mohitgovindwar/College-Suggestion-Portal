@@ -1,0 +1,102 @@
+/*Start of Header*/
+#topHeader{
+    background-color:whitesmoke;
+    border-bottom:1px solid silver;
+}
+#topHeader a{
+    color:red;
+}
+
+#bottomHeader a:hover{
+    background-color:white;
+    color:black;
+    
+    transition: 0.6s ease
+}
+
+.slide-show-color h3,h2,u{
+    color:#6d1b91 ;
+
+}
+#bottomHeader a{
+    border-radius:10px;
+}
+
+
+.next-icon{
+    background-color: #6d1b91;
+    height: 30px;
+    width: 30px;
+}
+#logo{
+    color:white;
+    border:4px solid white;
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 40px;
+
+}
+#Toggle ul li a{
+    color:white;
+    font-size: 20px;
+
+}
+
+/*End of Header*/
+
+/*Start of Footer*/
+.top-footer{
+    background-color: #6d1b91;
+    position: absolute;
+    
+}
+.top-footer p{
+    color:white;
+}
+.top-footer a,h1{
+    color:rgb(248, 238, 238);
+ 
+}
+
+/*End of Footer*/
+
+/*Start of About Page*/
+#AboutLogo{
+    width: 300px;
+    height: 300px;
+}
+
+/*End of About Page*/
+
+#register-form{
+    background-color: lightgray;
+}
+
+#form{
+    background-color: white;
+    
+   
+}
+
+#register-form-logo{
+    width:100px;
+    height:100px;
+}
+
+#hr{
+    background: silver;
+    height:0.1px;
+}
+
+
+
+
+
+/*Start of Search Page */
+#search{
+    border-bottom: 2px solid crimson;
+}
+
+.dropdown-menu{
+    background-color: #6d1b91;
+}

@@ -1,0 +1,144 @@
+<html>
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="fontawesome-free-5.14.0-web/css/all.css">
+  <link rel="stylesheet" href="Project.css">
+  <title>Search</title>
+
+</head>
+<body>
+  <header>
+    <div id="bottomHeader">
+      <div class="container-fluid p-1">
+        <nav class="navbar navbar-dark  navbar-expand-md" style="background-color:#6d1b91;">
+          <h1 id="logo">Students Portal</h1>
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#Toggle"><span
+              class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse " id="Toggle">
+            <ul class="navbar-nav" id="navbar-list">
+  
+              <li class="nav-item">
+                <a class="nav-link" href="Mainpage.php">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="search_section.html">Search</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="random_search_section.html">Random Search</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="About.php">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href=""></a>
+              </li>
+  
+              <li class="nav-item">
+                    
+                      <a href="logout.php" class="nav-link">
+                        <i class="fas fa-arrow-circle-left"></i>Logout
+                      </a>
+  
+                  </li>
+  
+  
+  
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  
+  <section>
+    <div class="container-fluid">
+      <form action="randomSearchphp.php" method="post">
+
+        <div class="row align-items-center justify-content-center">
+          <center>
+            <div class="col-md-4 m-md-5" id="form" style='border-radius:40px;box-shadow: 2px 5px 10px  rgb(0, 0, 0)'>
+              <div class="row">
+
+                <div class="col-12 mt-md-5 p-3">
+                  <center>
+                    <font color="crimson">
+                      <h2 id="search"><label>Search Colleges</label></h2>
+                    </font>
+                  </center>
+                </div>
+  
+                
+                
+                <div class="col-md-6 p-3">
+                  <label>Category:</label>&nbsp&nbsp&nbsp;<br>
+                  <select name="caste" id="caste">
+                    <option value="OPEN">OPEN</option>
+                    <option value="OBC">OBC</option>
+                  </select>
+                
+                </div>
+  
+                <div class="col-md-6 p-3">
+                  <label>Stream:</label>&nbsp&nbsp&nbsp;<br>
+                  <select name="stream" id="stream">
+                    
+                    <option value="Computer">Computer</option>
+                    
+                  </select>
+                
+                </div>
+  
+                <div class="col-md-6 p-3">
+                  <label>Upper limit of CET Score:</label>&nbsp&nbsp&nbsp;
+                  <input type="text" name="UL" required>
+                </div>
+  
+                <div class="col-md-6 p-3">
+                  <label>Lower limit of CET Score:</label>&nbsp&nbsp&nbsp;
+                  <input type="text" name="LL" required>
+                </div>
+
+                <div class="col-md-12 p-3">
+                  <label>City:</label>&nbsp&nbsp&nbsp;
+                  <br><input type="text" name="city">
+                </div>
+  
+                
+  
+                
+  
+                <div class="col-12 mb-md-5 p-3">
+                  <br>
+                  <center>
+                    <input type="submit" class="btn btn-danger" value="Search">
+                  </center>
+                </div>
+  
+
+
+
+                
+
+              </div>
+            </div>
+          </center>
+        </div>
+      </form>
+    </div>
+  </section>
+
+
+
+
+  
+
+
+</body>
+</html>
